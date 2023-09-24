@@ -1,3 +1,4 @@
+.idea
 crash-reports
 downloads
 journeymap
@@ -12,6 +13,7 @@ screenshots
 shaderpacks
 .curseclient
 enigmatic_persistence.dat
+imgui.ini
 minecraftinstance.json
 options.txt
 patchouli_data.json
