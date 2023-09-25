@@ -13,7 +13,7 @@
   "forge:ingots/zinc": "alltheores:zinc_ingot",
   "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:ingots/lead": "alltheores:lead_ingot",
-  "forge:ingots/titanium": "null",
+  "forge:ingots/titanium": "alternacraft:titanium_ingot",
   "forge:ingots/brass": "alltheores:brass_ingot",
   "forge:ingots/iridium": "alltheores:iridium_ingot",
   "forge:gems/sapphire": "alltheores:sapphire",

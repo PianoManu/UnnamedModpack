@@ -55,6 +55,17 @@
         "value": 10
       }
     },
+    "arsmagicalegacy:burnout_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
     "apotheosis:healing_received": {
       "enabled": false,
       "min": {
@@ -64,6 +75,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "arsmagicalegacy:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
       }
     },
     "forge:entity_gravity": {
@@ -88,6 +110,17 @@
         "value": 2048
       }
     },
+    "arsmagicalegacy:max_burnout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.flat_max_mana": {
       "enabled": false,
       "min": {
@@ -97,6 +130,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "minecolonies:mc_mob_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "apotheosis:draw_speed": {
@@ -174,6 +218,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "arsmagicalegacy:scale": {
+      "enabled": false,
+      "min": {
+        "default": 0.01,
+        "value": 0.01
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:reach_distance": {
@@ -330,6 +385,17 @@
         "value": 2048
       }
     },
+    "arsmagicalegacy:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -440,6 +506,17 @@
         "value": 100
       }
     },
+    "arsmagicalegacy:magic_vision": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -506,17 +583,6 @@
         "value": 1
       }
     },
-    "apotheosis:armor_shred": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
-      }
-    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -526,6 +592,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "apotheosis:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "minecraft:generic.max_health": {
