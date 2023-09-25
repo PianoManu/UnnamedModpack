@@ -10,6 +10,7 @@ saves
 schematics
 screenshots
 shaderpacks
+.physics_mod_cache
 .curseclient
 enigmatic_persistence.dat
 imgui.ini
