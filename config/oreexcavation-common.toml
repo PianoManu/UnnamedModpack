@@ -21,7 +21,7 @@
 	#Inverts the tool blacklist to function as a whitelist
 	"Invert Tool Blacklist" = false
 	#Inverts the block blacklist to function as a whitelist
-	"Invert Block Blacklist" = true
+	"Invert Block Blacklist" = false
 	#Ignores whether or not the held tool is valid
 	"Ignore Tool" = false
 	#Use alternate check for tool validity (e.g. swords on webs)
@@ -44,5 +44,5 @@
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
-	"Block Blacklist" = [#forge:ores", #minecraft:ores"]
+	"Block Blacklist" = []
 
