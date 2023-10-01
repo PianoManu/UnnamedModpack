@@ -1,4 +1,6 @@
 .idea
+.physics_mod_cache
+blueprints
 crash-reports
 downloads
 journeymap
@@ -10,6 +12,7 @@ saves
 schematics
 screenshots
 shaderpacks
+simple_backups
 .physics_mod_cache
 .curseclient
 enigmatic_persistence.dat
@@ -19,3 +22,5 @@ options.txt
 patchouli_data.json
 usercache.json
 usernamecache.json
+minecraftinstance.json
+o_prof
