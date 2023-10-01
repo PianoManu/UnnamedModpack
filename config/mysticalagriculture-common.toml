@@ -3,7 +3,7 @@
 [General]
 	#The amount of uses the basic Infusion Crystal should have.
 	#Range: > 10
-	infusionCrystalUses = 1000
+	infusionCrystalUses = 100
 	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
 	witherDropsCognizant = true
 	#Should vanilla crafting recipes for seeds be generated?
@@ -18,7 +18,7 @@
 	enchantableSupremiumTools = true
 	#The amount of time in seconds between each Growth Accelerator growth tick.
 	#Range: > 1
-	growthAcceleratorCooldown = 10
+	growthAcceleratorCooldown = 20
 	#Should fake players be able to use watering cans?
 	fakePlayerWatering = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
@@ -26,7 +26,7 @@
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
 	essenceFarmlandConversion = true
 	#Should crops have a chance of dropping a second seed when harvested?
-	secondarySeedDrops = true
+	secondarySeedDrops = false
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
 	#Range: 0.0 ~ 1.0
 	fertilizedEssenceChance = 0.1
