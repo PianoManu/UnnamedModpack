@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "PianoManu",
+      "uniqueId": "ed6dfe4b-8477-4950-bd45-09880fef22c6"
+    },
+    "time": 1696159385667,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pYE1akdIUh"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "PianoManu",
+      "uniqueId": "ed6dfe4b-8477-4950-bd45-09880fef22c6"
+    },
+    "time": 1695665885874,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/KdDxpal2zI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "PianoManu",
+      "uniqueId": "ed6dfe4b-8477-4950-bd45-09880fef22c6"
+    },
+    "time": 1695665654672,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fMRXm6C2DO"
+    }
+  }
+]
