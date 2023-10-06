@@ -18,7 +18,7 @@ craftingTable.addShaped("iron_wand", <item:constructionwand:iron_wand>, [
 ]);
 
 craftingTable.addShaped("diamond_wand", <item:constructionwand:diamond_wand>, [
-    [AIR, <tag:items:forge:dusts/netherite>, <item:arsomega:infused_diamond_block>],
+    [AIR, <tag:items:forge:dusts/netherite>, <item:minecraft:diamond_block>],
     [AIR, <item:enigmaticlegacy:ender_rod>,<tag:items:forge:dusts/netherite>],
     [<item:enigmaticlegacy:ender_rod>,AIR,AIR]
 ]);
