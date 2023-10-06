@@ -12,7 +12,7 @@ saves
 schematics
 screenshots
 shaderpacks
-simple_backups
+simplebackups
 .physics_mod_cache
 .curseclient
 enigmatic_persistence.dat
@@ -24,3 +24,5 @@ usercache.json
 usernamecache.json
 minecraftinstance.json
 o_prof
+minecraftinstance*
+scripts/examples*
