@@ -1,0 +1,11 @@
+mods.avaritia.ExtremeTableCrafting.addShaped("neutronium_gear", <item:avaritia:neutron_gear>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutron_nugget>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:minecraft:air>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>, <item:minecraft:air>], 
+	[<item:avaritia:neutron_nugget>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_nugget>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:minecraft:air>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_pile>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_ingot>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_pile>, <item:avaritia:neutron_nugget>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:avaritia:neutron_nugget>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
