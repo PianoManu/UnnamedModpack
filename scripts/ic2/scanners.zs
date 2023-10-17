@@ -17,7 +17,7 @@ craftingTable.addShaped("ov_scanner_recipy", <ic2:ov_scanner>, [
 
 craftingTable.addShaped("od_scanner_ranged_recipy", <ic2:od_scanner_ranged>, [
 	[<item:minecraft:air>, <item:cyclic:ender_eye_reuse>.withTag({Damage: 0 as int}), <item:minecraft:air>], 
-	[<item:ic2:complex_circuit>, <item:ic2:ov_scanner>.withTag({charge: 10000 as int}), <item:ic2:complex_circuit>], 
+	[<item:ic2:complex_circuit>, <item:ic2:ov_scanner>, <item:ic2:complex_circuit>], 
 	[<item:ic2:aluminium_double_insulated_cable_item>, <item:ic2:ore_iridium>, <item:ic2:aluminium_double_insulated_cable_item>]
 ]);
 
