@@ -2,16 +2,18 @@ craftingTable.remove(<item:ic2:od_scanner>);
 craftingTable.remove(<item:ic2:ov_scanner>);
 craftingTable.remove(<item:ic2:od_scanner_ranged>);
 craftingTable.remove(<item:ic2:ov_scanner_ranged>);
+craftingTable.remove(<item:ic2:od_scanner_big_ranged>);
+craftingTable.remove(<item:ic2:ov_scanner_big_ranged>);
 craftingTable.remove(<item:ic2:quarry_scanner>);
 
 craftingTable.addShaped("od_scanner_recipy", <ic2:od_scanner>, [
-    [<item:ic2:plate_advanced_alloy>, <item:cyclic:ender_eye_reuse>.withTag({Damage: 0 as int}), <item:ic2:plate_advanced_alloy>], 
+    [<item:ic2:plate_advanced_alloy>, <item:createoreexcavation:vein_finder>.withTag({Damage: 0 as int}), <item:ic2:plate_advanced_alloy>], 
     [<item:ic2:advanced_circuit>, <item:ic2:re_battery>, <item:ic2:advanced_circuit>], 
     [<item:ic2:bronze_double_insulated_cable_item>, <item:ic2:bronze_double_insulated_cable_item>, <item:ic2:bronze_double_insulated_cable_item>]
 ]);
 
 craftingTable.addShaped("ov_scanner_recipy", <ic2:ov_scanner>, [
-	[<item:minecraft:air>, <item:cyclic:ender_eye_reuse>.withTag({Damage: 0 as int}), <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:createoreexcavation:vein_finder>.withTag({Damage: 0 as int}), <item:minecraft:air>], 
 	[<item:ic2:advanced_circuit>, <item:ic2:od_scanner>, <item:ic2:advanced_circuit>], 
 	[<item:ic2:plate_advanced_alloy>, <item:rftoolsbase:infused_diamond>, <item:ic2:plate_advanced_alloy>]
 ]);
@@ -26,6 +28,24 @@ craftingTable.addShaped("ov_scanner_ranged_recipy", <ic2:ov_scanner_ranged>, [
 	[<item:minecraft:air>, <item:cyclic:ender_eye_reuse>.withTag({Damage: 0 as int}), <item:minecraft:air>], 
 	[<item:ic2:complex_circuit>, <item:ic2:od_scanner_ranged>, <item:ic2:complex_circuit>], 
 	[<item:ic2:super_cable_item>, <item:ic2:plate_iridium>, <item:ic2:super_cable_item>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("od_scanner_ranged_big_recipy", <ic2:od_scanner_big_ranged>, [
+	[<item:botania:ender_eye_block>, <item:ic2:ingot_refined_iron>, <item:extendedcrafting:enhanced_ender_ingot>, <item:ic2:ingot_refined_iron>, <item:botania:ender_eye_block>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:ic2:plate_advanced_alloy>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:ic2:plate_advanced_alloy>, <item:ic2:ov_scanner_ranged>, <item:ic2:plate_advanced_alloy>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:plate_iridium>, <item:ic2:plate_advanced_alloy>, <item:ic2:plate_iridium>, <item:ic2:ingot_refined_iron>], 
+	[<item:botania:ender_eye_block>, <item:ic2:ingot_refined_iron>, <item:extendedcrafting:enhanced_ender_ingot>, <item:ic2:ingot_refined_iron>, <item:botania:ender_eye_block>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("ov_scanner_ranged_big_recipy", <ic2:ov_scanner_big_ranged>, [
+	[<item:ic2:refined_iron_block>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:thermal:enderium_glass>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:ic2:refined_iron_block>], 
+	[<item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>], 
+	[<item:thermal:enderium_plate>, <item:ic2:complex_circuit>, <item:ic2:plate_iridium>, <item:ic2:plasma_cable_item>, <item:ic2:plate_iridium>, <item:ic2:complex_circuit>, <item:thermal:enderium_plate>], 
+	[<item:thermal:enderium_glass>, <item:ic2:complex_circuit>, <item:ic2:plasma_cable_item>, <item:ic2:od_scanner_big_ranged>, <item:ic2:plasma_cable_item>, <item:ic2:complex_circuit>, <item:thermal:enderium_glass>], 
+	[<item:thermal:enderium_plate>, <item:ic2:complex_circuit>, <item:ic2:plate_iridium>, <item:ic2:plasma_cable_item>, <item:ic2:plate_iridium>, <item:ic2:complex_circuit>, <item:thermal:enderium_plate>], 
+	[<item:thermal:enderium_plate>, <item:mekanism:ultimate_control_circuit>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:mekanism:ultimate_control_circuit>, <item:thermal:enderium_plate>], 
+	[<item:ic2:refined_iron_block>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:thermal:enderium_glass>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:ic2:refined_iron_block>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped("quarry_scanner_recipy", <ic2:quarry_scanner>, [
