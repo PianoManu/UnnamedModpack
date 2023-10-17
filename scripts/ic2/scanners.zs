@@ -5,6 +5,7 @@ craftingTable.remove(<item:ic2:ov_scanner_ranged>);
 craftingTable.remove(<item:ic2:od_scanner_big_ranged>);
 craftingTable.remove(<item:ic2:ov_scanner_big_ranged>);
 craftingTable.remove(<item:ic2:quarry_scanner>);
+craftingTable.remove(<item:ic2:rocket_miner>);
 
 craftingTable.addShaped("od_scanner_recipy", <ic2:od_scanner>, [
     [<item:ic2:plate_advanced_alloy>, <item:createoreexcavation:vein_finder>.withTag({Damage: 0 as int}), <item:ic2:plate_advanced_alloy>], 
@@ -59,4 +60,14 @@ mods.extendedcrafting.TableCrafting.addShaped("quarry_scanner_recipy", <ic2:quar
 	[<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:ic2:ingot_polished_gold>, <item:ic2:complex_circuit>, <item:ic2:ingot_polished_gold>, <item:ic2:complex_circuit>, <item:ic2:ingot_polished_gold>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>], 
 	[<item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>]
 ]);
-
+mods.extendedcrafting.TableCrafting.addShaped("rocket_miner_recipy", <ic2:rocket_miner>, [
+	[<item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:xnet:antenna>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>, <item:ic2:circuit>, <item:xnet:antenna_base>, <item:ic2:circuit>, <item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:carbon_plate>, <item:ironchest:diamond_chest>, <item:ic2:super_cable_item>, <item:ic2:miner_remote>, <item:ic2:super_cable_item>, <item:ironchest:diamond_chest>, <item:ic2:carbon_plate>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:carbon_plate>, <item:ic2:ranged_pump>, <item:ic2:super_cable_item>, <item:ic2:complex_circuit>, <item:ic2:super_cable_item>, <item:ic2:ranged_pump>, <item:ic2:carbon_plate>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:carbon_plate>, <item:computercraft:disk_drive>, <item:ic2:plasma_cable_item>, <item:ic2:miner>, <item:ic2:plasma_cable_item>, <item:computercraft:disk_drive>, <item:ic2:carbon_plate>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:carbon_plate>, <item:ic2:plasma_cable_item>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:plasma_cable_item>, <item:ic2:carbon_plate>, <item:ic2:ingot_refined_iron>], 
+	[<item:ic2:ingot_refined_iron>, <item:ic2:carbon_plate>, <item:ic2:complex_circuit>, <item:ic2:pesd>, <item:ic2:complex_circuit>, <item:ic2:pesd>, <item:ic2:complex_circuit>, <item:ic2:carbon_plate>, <item:ic2:ingot_refined_iron>], 
+	[<item:silentgear:crimson_steel_ingot>, <item:ic2:complex_circuit>, <item:ic2:carbon_plate>, <item:ic2:tesla_coil>, <item:ic2:complex_circuit>, <item:ic2:tesla_coil>, <item:ic2:carbon_plate>, <item:ic2:complex_circuit>, <item:silentgear:crimson_steel_ingot>], 
+	[<item:ic2:quantum_pack>, <item:silentgear:crimson_steel_ingot>, <item:ic2:carbon_plate>, <item:silentgear:crimson_steel_ingot>, <item:ic2:quantum_pack>, <item:silentgear:crimson_steel_ingot>, <item:ic2:carbon_plate>, <item:silentgear:crimson_steel_ingot>, <item:ic2:quantum_pack>]
+]);
