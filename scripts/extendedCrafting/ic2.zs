@@ -17,10 +17,10 @@ mods.extendedcrafting.TableCrafting.addShaped("advanced_machine_block", <item:ic
     [<item:ic2:plate_advanced_alloy>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <item:ic2:plate_advanced_alloy>]]); 
 
 mods.extendedcrafting.TableCrafting.addShaped("refinery", <item:ic2:refinery>, [
-    [<item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>],
-    [<item:minecraft:nether_bricks>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:minecraft:nether_bricks>],
-    [<item:minecraft:nether_bricks>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:alloy_smelter>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:minecraft:nether_bricks>],
-    [<item:minecraft:nether_bricks>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:alloy_smelter>, <item:ic2:advanced_machine_block>, <item:ic2:alloy_smelter>, <item:industrialforegoing:supreme_black_hole_tank>, <item:minecraft:nether_bricks>],
-    [<item:minecraft:nether_bricks>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:alloy_smelter>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:minecraft:nether_bricks>],
-    [<item:minecraft:nether_bricks>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:minecraft:nether_bricks>],
+    [<item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:fluid_tube>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>, <item:ic2:ingot_refined_iron>],
+    [<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>],
+    [<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:pump>, <item:ic2:alloy_smelter>, <item:pump>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>],
+    [<item:ic2:fluid_tube>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:alloy_smelter>, <item:ic2:advanced_machine_block>, <item:ic2:alloy_smelter>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:fluid_tube>],
+    [<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:pump>, <item:ic2:alloy_smelter>, <item:pump>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>],
+    [<item:ic2:ingot_refined_iron>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:industrialforegoing:supreme_black_hole_tank>, <item:ic2:complex_circuit>, <item:ic2:complex_circuit>, <item:ic2:ingot_refined_iron>],
     [<item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>]]);  
