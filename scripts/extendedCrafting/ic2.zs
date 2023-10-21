@@ -5,7 +5,7 @@ craftingTable.remove(<item:ic2:refinery>);
 mods.extendedcrafting.TableCrafting.addShaped("complex_circuit", <item:ic2:complex_circuit>, [
  [<item:ic2:gold_insulated_cable_item>, <item:ic2:pulsating_quartz>, <item:ic2:pulsating_quartz>, <item:ic2:pulsating_quartz>, <item:ic2:gold_insulated_cable_item>], 
 	[<item:ic2:heat_storage_six>, <item:ic2:dust_diamond>, <item:ic2:advanced_circuit>, <item:ic2:dust_diamond>, <item:ic2:heat_storage_six>], 
-	[<item:ic2:plate_advanced_alloy>, <item:ic2:advanced_circuit>, <item:thermal:netherite_plate>, <item:ic2:advanced_circuit>, <item:ic2:plate_advanced_alloy>], 
+	[<item:ic2:magnet>, <item:ic2:advanced_circuit>, <item:thermal:netherite_plate>, <item:ic2:advanced_circuit>, <item:ic2:magnet>], 
 	[<item:ic2:heat_storage_six>, <item:ic2:dust_diamond>, <item:ic2:advanced_circuit>, <item:ic2:dust_diamond>, <item:ic2:heat_storage_six>], 
 	[<item:ic2:gold_insulated_cable_item>, <item:ic2:pulsating_quartz>, <item:ic2:pulsating_quartz>, <item:ic2:pulsating_quartz>, <item:ic2:gold_insulated_cable_item>]]);
 
