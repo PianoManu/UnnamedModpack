@@ -8,10 +8,10 @@
 [stone_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 131
+	durability = 100
 	#Wand block limit
 	#Range: > 1
-	limit = 9
+	limit = 5
 	#Max placement distance with angel core (0 to disable angel core)
 	#Range: > 0
 	angel = 0
@@ -24,32 +24,32 @@
 [iron_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 250
+	durability = 500
 	#Wand block limit
 	#Range: > 1
-	limit = 27
+	limit = 10
 	#Max placement distance with angel core (0 to disable angel core)
 	#Range: > 0
 	angel = 2
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 9
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 
 [diamond_wand]
 	#Wand durability
 	#Range: > 1
-	durability = 1561
+	durability = 5000
 	#Wand block limit
 	#Range: > 1
-	limit = 128
+	limit = 20
 	#Max placement distance with angel core (0 to disable angel core)
 	#Range: > 0
 	angel = 8
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 25
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 
@@ -62,7 +62,7 @@
 	angel = 16
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 81
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 
