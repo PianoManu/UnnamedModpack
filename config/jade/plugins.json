@@ -113,6 +113,12 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "car": {
+    "car": true,
+    "generator": true,
+    "tank": true,
+    "fluid_extractor": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -128,6 +134,13 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.visitor_cost": true,
+    "colony.pack": true,
+    "colony.colonist": true,
+    "domum.materials": true
   },
   "create": {
     "filter": true,
