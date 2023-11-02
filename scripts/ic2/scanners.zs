@@ -8,13 +8,13 @@ craftingTable.remove(<item:ic2:quarry_scanner>);
 craftingTable.remove(<item:ic2:rocket_miner>);
 
 craftingTable.addShaped("od_scanner_recipy", <item:ic2:od_scanner>, [
-    [<item:ic2:plate_advanced_alloy>, <item:createoreexcavation:vein_finder>.withTag({Damage: 0 as int}), <item:ic2:plate_advanced_alloy>], 
+    [<item:ic2:plate_advanced_alloy>, <item:createoreexcavation:vein_finder>, <item:ic2:plate_advanced_alloy>], 
     [<item:ic2:advanced_circuit>, <item:ic2:re_battery>, <item:ic2:advanced_circuit>], 
     [<item:ic2:bronze_double_insulated_cable_item>, <item:ic2:bronze_double_insulated_cable_item>, <item:ic2:bronze_double_insulated_cable_item>]
 ]);
 
 craftingTable.addShaped("ov_scanner_recipy", <item:ic2:ov_scanner>, [
-	[<item:minecraft:air>, <item:createoreexcavation:vein_finder>.withTag({Damage: 0 as int}), <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:createoreexcavation:vein_finder>.withTag, <item:minecraft:air>], 
 	[<item:ic2:advanced_circuit>, <item:ic2:od_scanner>, <item:ic2:advanced_circuit>], 
 	[<item:ic2:plate_advanced_alloy>, <item:rftoolsbase:infused_diamond>, <item:ic2:plate_advanced_alloy>]
 ]);
