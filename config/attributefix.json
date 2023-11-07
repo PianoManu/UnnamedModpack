@@ -1,16 +1,5 @@
 {
   "attributes": {
-    "forge:attack_range": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "obscure_api:penetration": {
       "enabled": false,
       "min": {
@@ -20,6 +9,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "forge:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "forge:step_height_addition": {
@@ -99,6 +99,17 @@
         "value": 10
       }
     },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "arsmagicalegacy:mana_regen": {
       "enabled": false,
       "min": {
@@ -121,17 +132,6 @@
         "value": 8
       }
     },
-    "obscure_api:resilience": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "tetra:ability_damage": {
       "enabled": false,
       "min": {
@@ -143,17 +143,6 @@
         "value": 2048
       }
     },
-    "arsmagicalegacy:max_burnout": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 32767,
-        "value": 32767
-      }
-    },
     "obscure_api:regeneration": {
       "enabled": false,
       "min": {
@@ -163,6 +152,17 @@
       "max": {
         "default": 100000,
         "value": 100000
+      }
+    },
+    "arsmagicalegacy:max_burnout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
       }
     },
     "ars_nouveau:ars_nouveau.perk.flat_max_mana": {
@@ -704,17 +704,6 @@
         "value": 1
       }
     },
-    "botania:pixie_spawn_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "apotheosis:armor_shred": {
       "enabled": false,
       "min": {
@@ -735,6 +724,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.max_health": {
