@@ -1,0 +1,46 @@
+
+["Stand ability costs"]
+	#How much food the The World teleport costs.
+	#Range: 0 ~ 20
+	"The World cost" = 6
+	#How much food D4Cs dimensional teleport costs.
+	#Range: 0 ~ 20
+	"D4C cost" = 17
+	#How much food Magicians Reds fireball costs.
+	#Range: 0 ~ 20
+	"Fireball cost" = 5
+	#How much food C-Moons gravity reversal costs.
+	#Range: 0 ~ 20
+	"C-Moon cost" = 7
+	#How much food Weather Reports weather control costs.
+	#Range: 0 ~ 20
+	"Weather Report cost" = 6
+	#How much food Echos weight increase costs.
+	#Range: 0 ~ 20
+	"Act 3 cost" = 12
+	#How much food Killer Queens bomb costs.
+	#Range: 0 ~ 20
+	"Bomb cost" = 7
+	#How much food King Crimsons precognition costs.
+	#Range: 0 ~ 20
+	"Epitaph cost" = 9
+	#How much food Green Days fungus costs.
+	#Range: 0 ~ 20
+	"Green Day cost" = 12
+
+["Killer Queens bombs blockinteraction"]
+	#If Killer Queens bomb does block damage.
+	#Allowed Values: NONE, BREAK, DESTROY
+	"First bombs block damage" = "NONE"
+	#If Killer Queens Sheer Heart Attack does block damage.
+	#Allowed Values: NONE, BREAK, DESTROY
+	"Second bombs block damage" = "BREAK"
+
+["Guerk Ore spawn"]
+	#How many Guerk Ore veins spawn per chunk.
+	#Range: 1 ~ 15
+	"Veins per chunk" = 5
+	#How many Guerk Ore blocks spawn per vein.
+	#Range: 1 ~ 15
+	"Vein size" = 5
+
