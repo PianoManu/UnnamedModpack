@@ -1,0 +1,7 @@
+mods.extendedcrafting.TableCrafting.addShaped("blazing_core", <item:enigmaticlegacy:blazing_core>, [
+	[<item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:netherite_ingot>], 
+	[<item:minecraft:netherite_ingot>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "minecraft:long_fire_resistance"}), <item:cataclysm:ignitium_helmet>.withTag({Damage: 0 as int}), <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "minecraft:long_fire_resistance"}), <item:minecraft:netherite_ingot>], 
+	[<item:minecraft:netherite_ingot>, <item:upgradednetherite:fire_upgraded_netherite_ingot>, <item:cyclic:charm_fire>.withTag({Damage: 0 as int}), <item:upgradednetherite:fire_upgraded_netherite_ingot>, <item:minecraft:netherite_ingot>], 
+	[<item:minecraft:netherite_ingot>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "alexsmobs:long_lava_vision"}), <item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "alexsmobs:long_lava_vision"}), <item:minecraft:netherite_ingot>], 
+	[<item:minecraft:netherite_ingot>, <item:minecraft:air>, <item:cataclysm:ignitium_boots>.withTag({Damage: 0 as int}), <item:minecraft:air>, <item:minecraft:netherite_ingot>]
+]);

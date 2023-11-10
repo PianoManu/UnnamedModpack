@@ -1,0 +1,7 @@
+mods.extendedcrafting.TableCrafting.addShaped("forbidden_fruit", <item:enigmaticlegacy:forbidden_fruit>, [
+	[<item:create_confectionery:full_ruby_chocolate_bar>.withTag({Damage: 0 as int}), <item:minecraft:enchanted_golden_apple>, <item:cyclic:chorus_spectral>, <item:minecraft:enchanted_golden_apple>, <item:create_confectionery:full_ruby_chocolate_bar>.withTag({Damage: 0 as int})], 
+	[<item:minecraft:enchanted_golden_apple>, <item:cyclic:chorus_flight>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "arsomega:poison_3_potion"}), <item:cyclic:chorus_flight>, <item:minecraft:enchanted_golden_apple>], 
+	[<item:cyclic:chorus_spectral>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "arsomega:poison_3_potion"}), <item:cyclic:apple_diamond>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "arsomega:poison_3_potion"}), <item:cyclic:chorus_spectral>], 
+	[<item:minecraft:enchanted_golden_apple>, <item:cyclic:chorus_flight>, <item:apotheosis:potion_charm>.withTag({Damage: 0 as int, Potion: "arsomega:poison_3_potion"}), <item:cyclic:chorus_flight>, <item:minecraft:enchanted_golden_apple>], 
+	[<item:create_confectionery:full_ruby_chocolate_bar>.withTag({Damage: 0 as int}), <item:minecraft:enchanted_golden_apple>, <item:cyclic:chorus_spectral>, <item:minecraft:enchanted_golden_apple>, <item:create_confectionery:full_ruby_chocolate_bar>.withTag({Damage: 0 as int})]
+]);
