@@ -7,6 +7,6 @@ craftingTable.remove(<item:mysticalagriculture:master_infusion_crystal>);
 
 craftingTable.addShaped("master_infusion_crystal", <item:mysticalagriculture:master_infusion_crystal>, [
     [<item:mysticalagriculture:supremium_gemstone>,<item:mysticalagriculture:infusion_crystal>,<item:mysticalagriculture:supremium_gemstone>],
-    [<item:mysticalagriculture:infusion_crystal>,<item:extendedcrafting:ultimate_singularity>,<item:mysticalagriculture:infusion_crystal>],
+    [<item:mysticalagriculture:infusion_crystal>,<item:extendedcrafting:enhanced_redstone_ingot>,<item:mysticalagriculture:infusion_crystal>],
     [<item:mysticalagriculture:supremium_gemstone>,<item:mysticalagriculture:infusion_crystal>,<item:mysticalagriculture:supremium_gemstone>]
 ]);
