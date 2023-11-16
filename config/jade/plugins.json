@@ -61,17 +61,6 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "lootr": {
-    "info": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -99,19 +88,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
-  "beyond_earth": {
-    "block": true,
-    "entity": true
-  },
   "tesseract": {
     "tesseract": true,
     "remove_default": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
   },
   "car": {
     "car": true,
@@ -129,18 +108,11 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "appliedcooking": {
     "kitchen_station": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "jadecolonies": {
-    "colony.citizens": true,
-    "colony.visitor_cost": true,
-    "colony.pack": true,
-    "colony.colonist": true,
-    "domum.materials": true
   },
   "create": {
     "filter": true,
@@ -156,9 +128,6 @@
   "waystones": {
     "waystone": true
   },
-  "corpse": {
-    "corpse": true
-  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
@@ -166,14 +135,54 @@
     "milk_jar": true,
     "toaster": true
   },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
-  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,
     "display.status": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "beyond_earth": {
+    "block": true,
+    "entity": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "jadecolonies": {
+    "colony.citizens": true,
+    "colony.visitor_cost": true,
+    "colony.pack": true,
+    "colony.colonist": true,
+    "domum.materials": true
+  },
+  "corpse": {
+    "corpse": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }
