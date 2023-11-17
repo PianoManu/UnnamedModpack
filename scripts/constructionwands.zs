@@ -12,7 +12,7 @@ craftingTable.addShaped("stone_wand", <item:constructionwand:stone_wand>, [
 ]);
 
 craftingTable.addShaped("iron_wand", <item:constructionwand:iron_wand>, [
-    [AIR, <tag:items:forge:dusts/diamond>, <item:createdeco:cast_iron_block>],
+    [AIR, <tag:items:forge:dusts/diamond>, <item:minecraft:iron_block>],
     [AIR, <item:immersiveengineering:stick_treated>,<tag:items:forge:dusts/diamond>],
     [<item:immersiveengineering:stick_treated>,AIR,AIR]
 ]);
