@@ -6,7 +6,7 @@ enableMobBottles = true
 enablePowerRequirements = true
 #Set the max size a player can grow too
 #Range: 0.0 ~ 100.0
-maxSize = 10.0
+maxSize = 1.5
 #Set the min size a player can shrink too
 #Range: 0.0 ~ 100.0
 minSize = 0.21
