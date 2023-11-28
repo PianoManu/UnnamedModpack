@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "mob": [
+            "mekanismadditions:baby_enderman",
+            "enderzoology:enderminy"
+        ],
+        "mincount": 3,
+        "result": "deny"
+    }
+]
