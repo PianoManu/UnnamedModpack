@@ -16,7 +16,7 @@
   "speedVertical": 9.18,
   "accelVertical": 3.1,
   "speedSideways": 0.06,
-  "speedHoverAscend": 9.18,
+  "speedHoverAscend": 5.18,
   "speedHoverDescend": 3.1,
   "speedHover": 3.1,
   "sprintSpeedMulti": 1.0,
