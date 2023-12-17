@@ -5,6 +5,7 @@ craftingTable.remove(<item:ic2:ov_scanner_ranged>);
 craftingTable.remove(<item:ic2:od_scanner_big_ranged>);
 craftingTable.remove(<item:ic2:ov_scanner_big_ranged>);
 craftingTable.remove(<item:ic2:quarry_scanner>);
+craftingTable.remove(<item:ic2:filtered_scanner>);
 craftingTable.remove(<item:ic2:rocket_miner>);
 
 craftingTable.addShaped("od_scanner_recipy", <item:ic2:od_scanner>, [
