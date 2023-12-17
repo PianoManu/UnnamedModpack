@@ -89,18 +89,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/BsHBQ7j76Y"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "PianoManu",
-      "uniqueId": "ed6dfe4b-8477-4950-bd45-09880fef22c6"
-    },
-    "time": 1696622822319,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/IrN979gwrh"
-    }
   }
 ]

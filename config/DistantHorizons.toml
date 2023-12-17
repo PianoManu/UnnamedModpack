@@ -1,3 +1,4 @@
+_version = 2
 
 [client]
 	# Should Distant Horizon's config button appear in the options screen next to fov slider?
@@ -452,6 +453,16 @@
 			# 
 			# 
 			minTimeBetweenChunkUpdatesInSeconds = 1
+			# If false LODs will be lit by Minecraft's lighting engine when possible 
+			# and fall back to the DH lighting engine only when necessary. 
+			# 
+			# If true LODs will only be lit using Distant Horizons' lighting engine. 
+			# 
+			# Generally it is best to leave this disabled and should only be enabled 
+			# if there are lighting issues or for debugging. 
+			# 
+			# 
+			onlyUseDhLightingEngine = false
 
 		[client.advanced.buffers]
 			# What method should be used to upload geometry to the GPU? 
